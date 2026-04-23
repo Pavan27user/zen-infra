@@ -52,6 +52,7 @@ module "ecr" {
     "notification-service",
     "pharma-ui",
     "supplier-service"
+    "new-service"
   ]
 }
 
