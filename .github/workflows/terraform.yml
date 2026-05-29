@@ -8,13 +8,13 @@ on:
   push:
     branches: [main]
     paths:
-      - 'envs/dev/**'
-      - 'modules/**'
+      - 'terraform/envs/dev/**'
+      - 'terraform/envs/dev/**'
   pull_request:
     branches: [main]
     paths:
-      - 'envs/dev/**'
-      - 'modules/**'
+      - 'terraform/envs/dev/**'
+      - 'terraform/envs/dev/**'
   workflow_dispatch:
     inputs:
       action:
