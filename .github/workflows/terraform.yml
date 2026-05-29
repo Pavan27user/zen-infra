@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: envs/dev
+        working-directory: terraform/envs/dev
 
     steps:
       - uses: actions/checkout@v4
@@ -116,7 +116,7 @@ jobs:
     environment: dev   # ← pauses here and waits for manual approval
     defaults:
       run:
-        working-directory: envs/dev
+        working-directory: terraform/envs/dev
 
     steps:
       - uses: actions/checkout@v4
@@ -165,7 +165,7 @@ jobs:
     environment: dev   # ← approval gate for destroy too
     defaults:
       run:
-        working-directory: envs/dev
+        working-directory: terraform/envs/dev
 
     steps:
       - uses: actions/checkout@v4
